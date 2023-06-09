@@ -34,17 +34,19 @@ to run this project you need to have python and poetry (package manager) install
         pip install -r requirements.txt
         python manage.py makemigrations && python manage.py migrate
         python manage.py runserver
-```
 ## API Endpoints
-| HTTP Verbs | Endpoints | Action |
-| --- | --- | --- |
-| GET | /api/tasks | To retrieve all tasks |
-| POST | /api/tasks/ | To create a task |
-| GET | /api/tasks/:taskId | To retrieve a task by its ID |
-| PUT | /api/tasks/:taskId | To edit the details of a single task  |
-| PATCH | /api/tasks/:taskId | To edit the details of a single task  |
-| DELETE | /api/tasks/:causeId | To delete a single task |
-| GET | /swagger | well documented API endpoints of the project |
+
+| Method          | Endpoint | Description                                |
+|-------------------------|--------|--------------------------------------|
+| GET | `/api/tasks` | To retrieve all tasks |
+| POST | `/api/tasks/` | To create a task |
+| GET | `/api/tasks/:taskId` | To retrieve a task by its ID |
+| PUT | `/api/tasks/:taskId` | To edit the details of a single task  |
+| PATCH | `/api/tasks/:taskId` | To edit the details of a single task  |
+| DELETE | `/api/tasks/:causeId` | To delete a single task |
+| GET | `/swagger` | well documented API endpoints of the project |
+
+
 
 
 
