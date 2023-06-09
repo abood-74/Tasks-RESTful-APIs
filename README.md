@@ -15,25 +15,25 @@ to run this project you need to have python and poetry (package manager) install
 
   cloning the project 
   ```bash
-        git clone "[repo link](https://github.com/abood-74/Tasks-RESTful-APIs/)"
-        cd "Tasks-RESTful-APIs"
+     $ git clone "https://github.com/abood-74/Tasks-RESTful-APIs/"
+     $ cd ../Tasks-RESTful-APIs
   ```
 
 - if you have poetry installed on your machienthen run the following commands
   ```bash
-        poetry install 
-        poetry shell
-        python manage.py makemigrations && python manage.py migrate
-        python manage.py runserver
+     $ poetry install 
+     $ poetry shell
+     $ python manage.py makemigrations && python manage.py migrate
+     $ python manage.py runserver
   ```
     </br>
 - if you don't have poetry installed on your machine (you are using pip)
   ```bash 
-        python -m venv venv
-        source venv/bin/activate
-        pip install -r requirements.txt
-        python manage.py makemigrations && python manage.py migrate
-        python manage.py runserver
+     $ python -m venv venv
+     $ source venv/bin/activate
+     $ pip install -r requirements.txt
+     $ python manage.py makemigrations && python manage.py migrate
+     $ python manage.py runserver
 ## API Endpoints
 
 | Method          | Endpoint | Description                                |
