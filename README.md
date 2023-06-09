@@ -2,7 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Endpoints](#endpoints)
+* [API Endpoints](#api-endpoints)
 ## General info
 This project is simple for creating tasks, editing it and deleting it.
 ## Technologies
