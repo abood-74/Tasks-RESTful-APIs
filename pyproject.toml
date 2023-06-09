@@ -10,6 +10,7 @@ packages = [{include = "tasks_restful_apis"}]
 python = "^3.10"
 django = "^4.2.2"
 djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.5"
 
 
 [build-system]
